@@ -43,6 +43,10 @@ a {
   text-decoration: none;
 }
 
+.container {
+  margin: 2rem 16rem;
+}
+
 .homepage {
   background-image: url('/img/coffee-beans-contrast.jpg');
   background-size: cover;
@@ -160,11 +164,6 @@ a {
 
 .m-2 {
   margin: 2rem;
-}
-
-.ml-12, mr-12 {
-  margin-left: 12rem;
-  margin-right: 12rem;
 }
 
 .div-center {
