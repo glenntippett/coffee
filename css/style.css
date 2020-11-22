@@ -11,6 +11,10 @@ body {
   background-color: rgb(240, 240, 240);
 }
 
+a {
+  text-decoration: none;
+}
+
 .sec-full-height {
   height: 100vh;
 }
@@ -38,6 +42,12 @@ body {
 
 .grid {
   display: grid;
+}
+
+.grid-col-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
 }
 
 .flex {
@@ -86,4 +96,49 @@ body {
 
 .div-center {
   margin: 0 auto;
+}
+
+footer {
+  background-color: #262626;
+}
+
+footer a {
+  color: #535a62;
+  transition: all .2s ease-in-out; 
+}
+
+footer a:hover {
+  color: #78818d;
+}
+
+.ftr-social-icons {
+  grid-column: 5 / 9;
+  align-self: center;
+  grid-row: 1 / 4;
+}
+
+.ftr-social-icons a {
+  margin: 0 24px;
+  font-size: 2rem;
+}
+
+.ftr-contact {
+  grid-column: 5 / 9;
+  grid-row: 6 / 10;
+}
+
+.ftr-nav {
+  grid-column: 5 / 9;
+  grid-row: 4 / 6;
+  justify-self: center;
+}
+
+.ftr-nav ul li a {
+  margin: 0 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mob-list-block li {
+    display: block;
+  }
 }
