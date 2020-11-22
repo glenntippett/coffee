@@ -160,4 +160,8 @@ footer a:hover {
   .mob-list-block li {
     display: block;
   }
+
+  .card-container-cols {
+    grid-template-columns: 1fr;
+  }
 }
