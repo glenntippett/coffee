@@ -104,6 +104,11 @@ a {
 .card-white {
   background-color: white;
   border-radius: 4px;
+  transition: transform .2s;
+}
+
+.card-white:hover {
+  transform: scale(1.05);
 }
 
 .grid {
