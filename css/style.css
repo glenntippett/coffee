@@ -18,6 +18,12 @@ a {
   text-decoration: none;
 }
 
+.homepage {
+  background-image: url('/img/coffee-beans.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .sec-full-height {
   height: 100vh;
 }
