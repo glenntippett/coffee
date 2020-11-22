@@ -100,6 +100,7 @@ a {
 
 footer {
   background-color: #262626;
+  color: #535a62;
 }
 
 footer a {
@@ -124,7 +125,17 @@ footer a:hover {
 
 .ftr-contact {
   grid-column: 5 / 9;
-  grid-row: 6 / 10;
+  grid-row: 6 / 11;
+  margin-top: 1rem;
+}
+
+#ftr-contact-white {
+  color: #cbd0d6;
+  margin: 1rem;
+}
+
+.ftr-contact p {
+  margin: 0.5rem;
 }
 
 .ftr-nav {
