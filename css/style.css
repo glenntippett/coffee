@@ -19,6 +19,10 @@ body {
   height: 70vh;
 }
 
+.sec-height-40 {
+  height: 40vh;
+}
+
 .list-inline {
   list-style: none; 
   padding: 0;
@@ -34,6 +38,27 @@ body {
 
 .grid {
   display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.txt-align-center {
+  text-align: center;
 }
 
 .card-container-cols {
