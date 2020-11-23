@@ -91,6 +91,12 @@ a {
   height: 100vh;
 }
 
+.card-nav-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .sec-height-70 {
   height: 70vh;
 }
@@ -110,14 +116,76 @@ a {
 
 .card-white {
   background-color: white;
-  border-radius: 4px;
-  transition: transform .2s, box-shadow .2s;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative
+}
+
+#card-one::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/coffee-shop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+#card-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/coffee-beans-two.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+#card-three::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  z-index: 1;
+  background-image: url(/img/coffee-shop-two.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#card-four::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  z-index: 1;
+  background-image: url(/img/coffee-shop-three.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card-white:hover {
-  transform: scale(1.03);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.card-white h2 {
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  z-index: 2;
 }
 
 .grid {
@@ -157,20 +225,8 @@ a {
   grid-row-gap: 2rem;
 }
 
-.h-100 {
-  height: 100%;
-}
-
-.w-100 {
-  width: 100%;
-}
-
 .m-2 {
   margin: 2rem;
-}
-
-.div-center {
-  margin: 0 auto;
 }
 
 footer {
@@ -222,7 +278,7 @@ footer a:hover {
 }
 
 .ftr-nav a {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .ftr-nav ul li a {
