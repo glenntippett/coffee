@@ -284,7 +284,7 @@ footer a:hover {
 }
 
 .ftr-nav {
-  grid-column: 5 / 9;
+  grid-column: 4 / 10;
   grid-row: 4 / 6;
   justify-self: center;
 }
