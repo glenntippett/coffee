@@ -20,12 +20,3 @@
 .card-features div p {
   margin: 0;
 }
-
-#card-img-1,
-#card-img-3 {
-  border-radius: 8px 32px 32px 8px;
-}
-
-#card-img-2 {
-  border-radius: 32px 8px 8px 32px;
-}
