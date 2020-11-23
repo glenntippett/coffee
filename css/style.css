@@ -71,6 +71,7 @@ a {
   justify-self: center;
   align-self: center;
   color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .arrow-container {
@@ -119,7 +120,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: relative
+  position: relative;
 }
 
 #card-one::before {
@@ -134,6 +135,7 @@ a {
   background-repeat: no-repeat;
   opacity: 0.8;
   z-index: 1;
+  transition: all .2s ease-in-out; 
 }
 
 #card-two::before {
@@ -148,6 +150,7 @@ a {
   background-repeat: no-repeat;
   opacity: 0.8;
   z-index: 1;
+  transition: all .2s ease-in-out; 
 }
 
 #card-three::before {
@@ -162,6 +165,7 @@ a {
   background-image: url(/img/coffee-shop-two.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: all .2s ease-in-out; 
 }
 
 #card-four::before {
@@ -176,6 +180,7 @@ a {
   background-image: url(/img/coffee-shop-three.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: all .2s ease-in-out; 
 }
 
 #card-one:hover::before,
