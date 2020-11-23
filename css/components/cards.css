@@ -1,6 +1,6 @@
 .card-features {
   background-color: white;
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin: 8px 16px;
   height: 250px;
@@ -19,4 +19,13 @@
 .card-features div h3,
 .card-features div p {
   margin: 0;
+}
+
+#card-img-1,
+#card-img-3 {
+  border-radius: 4px 0px 0px 4px;
+}
+
+#card-img-2 {
+  border-radius: 0px 4px 4px 0px;
 }
