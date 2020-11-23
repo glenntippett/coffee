@@ -3,8 +3,20 @@
   border-radius: 4px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin: 8px 16px;
+  height: 250px;
+  display: flex;
 }
 
 .card-features img {
   height: 250px;
+  object-fit: cover;
+}
+
+.card-features div {
+  padding: 16px;
+}
+
+.card-features div h3,
+.card-features div p {
+  margin: 0;
 }
