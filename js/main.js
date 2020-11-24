@@ -15,3 +15,7 @@ if (screen.width <= 768) {
   cardTwoImgParent = document.querySelector('#card-two-parent');
   cardTwoImgParent.insertBefore(cardTwoImg, cardTwoImgParent.childNodes[0]);
 }
+
+if (screen.width <= 540) {
+  document.querySelector('.homepage').style.backgroundImage = "url('../img/coffee-hands.jpg')";
+}
