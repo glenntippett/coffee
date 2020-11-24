@@ -8,6 +8,8 @@ document.querySelector('.close-nav').addEventListener('click', () => {
   document.querySelector('.nav-container').style.display = 'none';
 });
 
+// On smaller screens, swap second card image to be on top
+// to keep it similar to the other cards
 if (screen.width <= 768) {
   cardTwoImg = document.querySelector('#card-img-2');
   cardTwoImgParent = document.querySelector('#card-two-parent');
