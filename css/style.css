@@ -4,6 +4,7 @@
 @import url(./components/cards.css);
 @import url(./components/blockquotes.css);
 @import url(./components/banners.css);
+@import url(./components/nav.css);
 
 @font-face {
   font-family: 'JosefinSlab';
