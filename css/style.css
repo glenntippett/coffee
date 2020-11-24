@@ -5,6 +5,7 @@
 @import url(./components/blockquotes.css);
 @import url(./components/banners.css);
 @import url(./components/nav.css);
+@import url(./components/footer.css);
 
 @font-face {
   font-family: 'JosefinSlab';
@@ -245,62 +246,6 @@ a {
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
-}
-
-footer {
-  background-color: #262626;
-  color: #535a62;
-  height: 50vh;
-}
-
-footer a {
-  color: #535a62;
-  transition: all .2s ease-in-out; 
-  font-family: 'Libre Baskerville', serif;
-}
-
-footer a:hover {
-  color: #78818d;
-}
-
-.ftr-social-icons {
-  grid-column: 5 / 9;
-  align-self: center;
-  grid-row: 1 / 4;
-}
-
-.ftr-social-icons a {
-  margin: 0 24px;
-  font-size: 2rem;
-}
-
-.ftr-contact {
-  grid-column: 5 / 9;
-  grid-row: 6 / 11;
-  margin-top: 1rem;
-}
-
-#ftr-contact-white {
-  color: #cbd0d6;
-  margin: 1rem;
-}
-
-.ftr-contact p {
-  margin: 0.5rem;
-}
-
-.ftr-nav {
-  grid-column: 4 / 10;
-  grid-row: 4 / 6;
-  justify-self: center;
-}
-
-.ftr-nav a {
-  font-size: 0.9rem;
-}
-
-.ftr-nav ul li a {
-  margin: 0 16px;
 }
 
 /***** Media Queries *****/
