@@ -29,3 +29,20 @@
 #card-img-2 {
   border-radius: 0px 4px 4px 0px;
 }
+
+@media (max-width: 768px) {
+  .card-features {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card-features img {
+    width: 100%;
+  }
+  
+  #card-img-1,
+  #card-img-3 {
+    border-radius: 4px 4px 0px 0px;
+  }
+}

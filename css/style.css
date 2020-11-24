@@ -309,31 +309,25 @@ footer a:hover {
   margin: 0 16px;
 }
 
-/* @media only screen and (max-width: 600px) {
-  .mob-list-block li {
-    display: block;
-  }
-  
-  .card-container-cols {
-    grid-template-columns: 1fr;
-  }
-} */
-
 /***** Media Queries *****/
 
 @media (max-width: 960px) {
   .container {
     width: 700px;
   }
+
+  p { font-size: 0.95rem; }
 }
-@media (max-width: 720px) {
+
+@media (max-width: 768px) {
   .container {
     width: 500px;
   }
 }
+
 @media (max-width: 540px) {
   .container {
-    width: 300px;
+    width: 350px;
   }
 
   p {margin-bottom: 1rem;}
@@ -369,7 +363,4 @@ footer a:hover {
   }
 
   .img-banner { display: none; }
-
-
-
 }
