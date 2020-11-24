@@ -45,3 +45,15 @@
   color: white;
   cursor: pointer;
 }
+
+@media (max-width: 540px) {
+
+  .homepage nav, .close-nav {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .nav-content {
+    grid-column: 4 / 9;
+  }
+}
