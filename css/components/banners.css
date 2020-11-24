@@ -1,0 +1,7 @@
+.img-banner {
+  background-image: url(../../img/barista.jpg);
+  height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
