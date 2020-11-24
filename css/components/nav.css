@@ -5,9 +5,10 @@
   z-index: 3;
   background-color: rgba(0,0,0, 0.9);
   transition: 0.5s;
-  display: grid;
+  /* display: grid; */
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
+  display: none;
 }
 
 .nav-content {
@@ -42,4 +43,5 @@
 
 .close-nav:hover {
   color: white;
+  cursor: pointer;
 }
